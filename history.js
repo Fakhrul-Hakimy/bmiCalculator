@@ -2,7 +2,7 @@ $(document).ready(function () {
     // Retrieve the BMI data from localStorage
     var storedBmiData = localStorage.getItem("Bmidata");
     var bmiArray;
-
+    
     // Check if there is any stored data, if not initialize an empty array
     if (storedBmiData === null) {
         bmiArray = [];
@@ -25,7 +25,7 @@ $(document).ready(function () {
                         <div class="collapse" id="collapse${index}">
                             <div class="card card-body">
                                 <p><strong>Weight (kg):</strong> ${bmiData.Weight || 'N/A'}</p>
-                                <p><strong>Height (cm):</strong> ${bmiData.Height || 'N/A'}</p>
+                                <p><strong>Height (m):</strong> ${bmiData.Height || 'N/A'}</p>
                                 <p><strong>BMI Result:</strong> ${bmiData.Result}</p>
                                 <p><strong>Status:</strong> ${bmiData.Status}</p>
                             </div>
