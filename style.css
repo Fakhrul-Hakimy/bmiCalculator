@@ -1,0 +1,50 @@
+body{
+    background-image:url("images/bg.jpg");
+}
+#form_bmi{
+    border: 2px solid white;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#header{
+    size: 30px;
+    color: white;
+}
+
+#bmi-history{
+    display: block; /* Ensures the button takes up the full width available */
+    text-align: center; /* Centers the content horizontally */
+    margin: 0 auto; /* Automatically centers the button horizontally */
+    
+}
+
+#calculate-bmi{
+    display: block; /* Ensures the button takes up the full width available */
+    margin: 0 auto; /* Automatically centers the button horizontally */
+}
+h1{
+    text-align: center;
+    color:white;
+}
+label{
+    color: white;
+}
+#bmi-result {
+    display: none; /* Hide the BMI result initially */
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+#backBtn {
+    color: white; /* Change the color to white */
+    font-size: 45px; /* Adjust the font size */
+}
+
+table{
+    border-radius: 20px;
+}
